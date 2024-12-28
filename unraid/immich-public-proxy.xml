@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/183574-bg_hizzy/</Support>
   <Project>https://github.com/alangrainger/immich-public-proxy/tree/main</Project>
   <Overview>Immich Public Proxy provides a barrier of security between the public and Immich.&#xD;
 &#xD;
@@ -25,7 +25,7 @@ The WebUI should return "Ok" if configured correctly, then point incoming traffi
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1735389183</DateInstalled>
+  <DateInstalled>1735390668</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
