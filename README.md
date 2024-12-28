@@ -1,5 +1,5 @@
-# Unraid-templates
-Templates for Unraid. [Reference to Squid's requirements](https://forums.unraid.net/topic/57181-docker-faq/#comment-566084)
+# templates
+Templates for Unraid CA. [Reference to Squid's requirements](https://forums.unraid.net/topic/57181-docker-faq/#comment-566084)
 
 Format of this repository is based on [imagegenius](https://github.com/imagegenius/templates/tree/main)
 
