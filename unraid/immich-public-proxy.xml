@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>immich-public-proxy</Name>
+  <Repository>alangrainger/immich-public-proxy:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/alangrainger/immich-public-proxy/tree/main</Project>
+  <Overview>Immich Public Proxy provides a barrier of security between the public and Immich.&#xD;
+&#xD;
+This will accept /share/key paths and make the API call to the Immich instance without exposing the /auth/login or /api to the public.&#xD;
+&#xD;
+The WebUI should return "Ok" if configured correctly, then point incoming traffic to this proxy instance to serve shared albums.&#xD;
+&#xD;
+&#xD;
+&#xD;
+</Overview>
+  <Category>Cloud: Security: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:3005]/healthcheck</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/bghizzy/templates/refs/heads/main/unraid/img/ipp.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1735389183</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Immich Instance URL" Target="IMMICH_URL" Default="http://immich-ip-address:8080" Mode="" Description="local URL for Immich, &#13;&#10;http://immich-ip-address:8080." Type="Variable" Display="always" Required="true" Mask="false">http://immich-ip-address:8080</Config>
+  <Config Name="Host Port" Target="3000" Default="3005" Mode="tcp" Description="Port to send requests, picked 3005 to stay out of other containers" Type="Port" Display="always" Required="true" Mask="false">3005</Config>
+</Container>
