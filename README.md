@@ -7,4 +7,4 @@ Format of this repository is based on [imagegenius](https://github.com/imagegeni
 This is an adaptation for an Unraid container to be added to the Community App store.
 
 Credit for the creation of immich-public-proxy goes to:
-[alangrainger](https://github.com/alangrainger/immich-public-proxy)
+[alangrainger](https://github.com/alangrainger/immich-public-proxy). The ipp.png image used here was converted from the .svg image from alangrainger.
