@@ -1,7 +1,11 @@
 # templates
-Templates for Unraid CA. [Reference to Squid's requirements](https://forums.unraid.net/topic/57181-docker-faq/#comment-566084).
+Templates for Unraid CA. 
 
-Format of this repository is based on [imagegenius](https://github.com/imagegenius/templates/tree/main).
+[Reference to Squid's requirements](https://forums.unraid.net/topic/57181-docker-faq/#comment-566084). Format of this repository is based on [imagegenius](https://github.com/imagegenius/templates/tree/main).
+
+Structure of repository:
+/unraid - contains xml files
+/unraid/img - contains png files used for icon references
 
 ## immich-public-proxy
 This is an adaptation for an Unraid container to be added to the Community App store.
