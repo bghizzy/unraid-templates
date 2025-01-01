@@ -19,7 +19,7 @@ The WebUI should return "Ok" if configured correctly, then point incoming traffi
 &#xD;
 </Overview>
   <Category>Cloud: Security: Tools:</Category>
-  <WebUI>http://[IP]:[PORT:3005]/healthcheck</WebUI>
+  <WebUI>http://[IP]:[PORT:3000]/healthcheck</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/bghizzy/unraid-templates/refs/heads/main/unraid/img/ipp.png</Icon>
   <ExtraParams/>
