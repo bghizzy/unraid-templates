@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>immich-public-proxy</Name>
   <Repository>alangrainger/immich-public-proxy:latest</Repository>
-  <Registry/>https://hub.docker.com/r/alangrainger/immich-public-proxy</Registry>
+  <Registry>https://hub.docker.com/r/alangrainger/immich-public-proxy</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
