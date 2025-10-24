@@ -8,3 +8,8 @@ Structure of repository:
 ## immich-public-proxy
 Credit for the creation of immich-public-proxy goes to:
 [alangrainger](https://github.com/alangrainger/immich-public-proxy). The ipp.png image used here was converted from the .svg image from alangrainger.
+
+
+## iSponsorBlockTV
+Credit for the creation of iSponsorBlockTV goes to:
+[dmunozv04](https://github.com/dmunozv04/iSponsorBlockTV). The iSponsorBlockTV.png image used here is based on [SponsorBlock](https://sponsor.ajay.app/) logo created by [munadikieh](https://github.com/munadikieh)
